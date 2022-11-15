@@ -1,0 +1,47 @@
+/* navbar in general */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2%;
+}
+
+/* no underline for a link  */
+a {
+  text-decoration: none;
+}
+
+/* the logo */
+.logo {
+  margin-right: 30%;
+  font-size: 250%;
+}
+.logo>a>i {
+  /* color: #6E07F3; */
+  color: rgb(0, 204, 255);
+}
+
+/* the contact  */
+.info {
+  font-size: 100%;
+}
+.navLink {
+  border:rgb(0, 204, 255) 2px solid;
+  color: rgb(0, 204, 255);
+  padding: 10% 20%;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.navLink:hover {
+  transition-duration: 0.3s;
+  color: white;
+  background-color: rgb(0, 204, 255);
+}
+.navLinkActive {
+  color: white;
+  border:rgb(0, 204, 255) 2px solid;
+  background-color: rgb(0, 204, 255);
+  padding: 10% 20%;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
