@@ -1,0 +1,34 @@
+.skill {
+  padding-inline: 1rem;
+}
+
+/* icon in skill columns */
+@media (prefers-reduced-motion: no-preference) {
+  .skill>i {
+    animation: spin infinite 10s linear;
+  }
+}
+.skill>i {
+  margin-top: 2rem;
+  color: #6E07F3;
+  font-size: 2rem;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+/* middle column only */
+.middleColumn {
+  border-inline: 0.5px rgb(121, 118, 153) solid;
+}
+
+/* title in each column  */
+.title {
+  margin-top: 2rem;
+  color: rgb(0, 204, 255);
+}

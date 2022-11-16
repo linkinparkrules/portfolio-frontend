@@ -15,10 +15,11 @@
 .skillsBoard {
   background-color: white;
   margin-top: -5rem;
-  /* z-index: 2; */
+  border: 1.5px rgb(121, 118, 153) groove;
   margin-inline: 3%;
   border-radius: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr
+  grid-template-rows: min-content min-content min-content ;
+  grid-auto-flow: column;
 }

@@ -13,11 +13,6 @@ function App() {
         <Route path='/home' element={<Home />} />
         <Route path='/' element={<Home />} />
       </Routes>
-      {/* <div className={app.AppHeader}>
-        <i className="fa-brands fa-react"></i>
-        <i className="fa-brands fa-node-js"></i>
-        <i className="fa-solid fa-language"></i>
-      </div> */}
     </div>
   );
 }

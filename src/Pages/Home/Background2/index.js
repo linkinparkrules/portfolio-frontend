@@ -1,5 +1,7 @@
 import bg2 from "./bg2.module.css"
-import Skills from "./Skills";
+import Skill1 from "./skills/skill1.js";
+import Skill2 from "./skills/skill2.js";
+import Skill3 from "./skills/skill3.js";
 
 const Background2 = () => {
   return (
@@ -12,9 +14,9 @@ const Background2 = () => {
         </div>
       </div>
       <div className={bg2.skillsBoard}>
-        <Skills />
-        <Skills />
-        <Skills />
+        <Skill1 />
+        <Skill2 />
+        <Skill3 />
       </div>
     </>
 
