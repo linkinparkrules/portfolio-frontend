@@ -12,14 +12,15 @@ const Skill2 = () => {
         <p className={skills.title}>Framework:</p>
         <p>ExpressJS, NodeJS</p>
       </div>
-      
+
       <div className={skills.middleColumn}>
         <p className={skills.title}>Dev tools and <b>Database</b>:</p>
-        <p> VSCode
+        <p className={skills.lists} >
+          VSCode
           <br /> Github
           <br /> Postman
           <br /> Heroku
-          <br /> <b>MongoDB</b> 
+          <br /> <b>MongoDB</b>
         </p>
       </div>
     </>

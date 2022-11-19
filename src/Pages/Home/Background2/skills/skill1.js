@@ -15,7 +15,7 @@ const Skill1 = () => {
       
       <div>
         <p className={skills.title}>Dev tools:</p>
-        <p> VSCode
+        <p className={skills.lists} > VSCode
           <br /> Github
           <br /> HTML & CSS
           <br /> Vercel

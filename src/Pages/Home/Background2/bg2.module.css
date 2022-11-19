@@ -13,10 +13,11 @@
 }
 
 .skillsBoard {
+  box-shadow: 6px 6px 6px #888888;
   background-color: white;
   margin-top: -5rem;
   border: 1.5px rgb(121, 118, 153) groove;
-  margin-inline: 3%;
+  margin-inline: 10%;
   border-radius: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
