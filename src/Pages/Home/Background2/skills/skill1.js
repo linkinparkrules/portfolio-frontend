@@ -9,17 +9,15 @@ const Skill1 = () => {
       </div>
 
       <div>
-        <p className={skills.title}>Language i use:</p>
-        <p>HTML, CSS, Git, React</p>
+        <p className={skills.title}>Framework:</p>
+        <p>ReactJS</p>
       </div>
       
       <div>
         <p className={skills.title}>Dev tools:</p>
-        <p> VsCode
+        <p> VSCode
           <br /> Github
-          <br /> React
-          <br /> React Router Dom
-          <br /> Axios
+          <br /> HTML & CSS
           <br /> Vercel
         </p>
       </div>

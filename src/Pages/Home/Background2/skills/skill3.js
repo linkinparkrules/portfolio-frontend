@@ -9,11 +9,13 @@ const Skill3 = () => {
       </div>
 
       <div>
-        <p className={skills.title}>Language i use:</p>
-        <p>English, Vietnamese</p>
+        <p className={skills.title}>Programming language:</p>
+        <p>Javascript</p>
       </div>
 
       <div>
+        <p className={skills.title}>Language i use:</p>
+        <p>English</p>
         <p className={skills.title}>Experience:</p>
         <p>Ielts 7.0</p>
       </div>

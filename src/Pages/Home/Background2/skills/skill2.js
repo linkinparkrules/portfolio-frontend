@@ -9,19 +9,17 @@ const Skill2 = () => {
       </div>
 
       <div className={skills.middleColumn}>
-        <p className={skills.title}>Language i use:</p>
-        <p>JavaScript, Express, NodeJs, Axios, MongoDb</p>
+        <p className={skills.title}>Framework:</p>
+        <p>ExpressJS, NodeJS</p>
       </div>
       
       <div className={skills.middleColumn}>
-        <p className={skills.title}>Dev tools:</p>
-        <p> VsCode
+        <p className={skills.title}>Dev tools and <b>Database</b>:</p>
+        <p> VSCode
           <br /> Github
-          <br /> Express
-          <br /> MongoDb
-          <br /> Cors
-          <br /> JWT
+          <br /> Postman
           <br /> Heroku
+          <br /> <b>MongoDB</b> 
         </p>
       </div>
     </>
