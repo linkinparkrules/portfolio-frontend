@@ -12,9 +12,15 @@ const Footer = () => {
                 Living, learning, & leveling up one day at a time.
             </div>
             <div className={footer.contact}>
-                <i className="fa-brands fa-facebook"></i>
-                <i className="fa-solid fa-envelope"></i>
-                <i className="fa-solid fa-square-phone"></i>
+                <a href="https://www.facebook.com/Linkinllica/">
+                    <i className="fa-brands fa-facebook"></i>
+                </a>
+                <a href="mailto: nghiacao1997@gmail.com">
+                    <i className="fa-solid fa-envelope"></i>
+                </a>
+                <a href="tel: 0375374231">
+                    <i className="fa-solid fa-square-phone"></i>
+                </a>
             </div>
 
         </div>

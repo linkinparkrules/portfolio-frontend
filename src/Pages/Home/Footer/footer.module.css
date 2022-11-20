@@ -21,14 +21,14 @@
     font-size: 1.6rem;
 }
 
-.contact>i {
+.contact>a>i {
     font-size: 2rem;
     margin: 1rem;
     color: #6E07F3;
     
 }
 
-.contact>i:hover {
+.contact>a>i:hover {
     color: white;
     transform: scale(1.5);
     transition: .5s ease;
