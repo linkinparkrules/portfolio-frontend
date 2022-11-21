@@ -9,7 +9,7 @@ function App() {
   return (
     <div className={app.App}>
       <Navbar />
-      <BackToTop />
+      {/* <BackToTop /> */}
       <Routes>
         <Route path='/contact' element={<Contact />} />
         <Route path='/home'  element={<Home />} />
