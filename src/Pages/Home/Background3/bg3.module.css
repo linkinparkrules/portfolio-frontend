@@ -112,6 +112,10 @@
     width: 100%;
   }
 
+  .education>h4 {
+    font-size: 1rem;
+  }
+
   .educationLevel {
     width: 90%;
   }
