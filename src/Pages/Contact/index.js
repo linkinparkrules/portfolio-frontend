@@ -34,7 +34,6 @@ const Contact = () => {
 
   async function handleSubmit(event) {
     event.preventDefault();
-    console.log(text.name);
     if (text.name.replace(/\s+/g, '') === "") {
       setTextError({
         name: "Please type something!",
