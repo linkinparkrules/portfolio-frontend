@@ -23,6 +23,10 @@
   margin: 25px auto;
 }
 
+.educationLevel>p {
+  font-size: 1.25rem;
+}
+
 .school {
   margin: 0;
   padding: 12px 0 5px 0;
@@ -51,8 +55,13 @@
   flex-direction: column;
 }
 
+.project>h4 {
+  font-size: 1.25rem;
+}
+
 .project p {
   margin: 5px;
+  font-size: 1.25rem;
 }
 
 .projectImg {
@@ -103,13 +112,26 @@
     width: 90%;
   }
 
+  .educationLevel>p {
+    font-size: 1rem;
+  }
+
   .project {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
 
+  .project>h4 {
+    font-size: 1rem;
+  }
+  
+  .project p {
+    margin: 5px;
+    font-size: 1rem;
+  }
+
   .projectImg {
-    width: 80%;
+    width: 70%;
   }
 }

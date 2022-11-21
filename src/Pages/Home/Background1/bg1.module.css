@@ -6,9 +6,13 @@
   /* background-color: #6E07F3; */
 }
 
+.background1>p {
+  font-size: 1.5rem;
+}
+
 .jobIntro {
   margin-top: 5%;
-  font-size: 250%;
+  font-size: 3rem;
   margin-bottom: 0;
 }
 
@@ -23,4 +27,15 @@
 .devices {
   margin: 1rem 0;
   max-width: 70%;
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 768px) {
+  .background1>p {
+    font-size: 1rem;
+  }
+  
+  .jobIntro {
+    font-size: 2rem;
+  }
 }
