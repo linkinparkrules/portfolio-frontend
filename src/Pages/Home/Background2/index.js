@@ -8,8 +8,8 @@ const Background2 = () => {
     <>
       <div className={bg2.background2}>
         <div className={bg2.intro}>
-          As someone who is organized and good with logic, i want to be a part of the main workforce
-          for the company, to give optimal solutions for the customers. Also, i want to increase my capacity
+          As someone who is organized and good with logic, I want to be a part of the main workforce
+          for the company, to give optimal solutions for the customers. Also, I want to increase my capacity
           and ability through the company's professional work environment.
         </div>
       </div>
