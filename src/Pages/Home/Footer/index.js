@@ -9,10 +9,14 @@ const Footer = () => {
                 <i className="fa-solid fa-c"></i>
             </Link>
             <div className={footer.quote}>
-                Living, learning, & leveling up one day at a time.
+                Living, learning, & leveling everyday.
             </div>
             <div className={footer.contact}>
-                <a href="https://www.facebook.com/Linkinllica/">
+                <a
+                    href="https://www.facebook.com/Linkinllica/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <i className="fa-brands fa-facebook"></i>
                 </a>
                 <a href="mailto: nghiacao1997@gmail.com">

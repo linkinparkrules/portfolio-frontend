@@ -14,7 +14,7 @@
 
 .avatar {
   width: 10rem;
-  height: 15%;
+  /* height: 15%; */
   background-color: aqua;
   border-radius: 100%;
   margin: 1rem 0;

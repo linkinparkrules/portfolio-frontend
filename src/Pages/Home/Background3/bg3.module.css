@@ -59,3 +59,49 @@
   width: 50%;
   border-radius: 10px;
 }
+
+/*Tablet: width >= 768px and width < 1024px*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .background3 {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .education {
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projectImg {
+    width: 80%;
+  }
+}
+
+/* Mobile: width < 768px */
+@media only screen and (max-width: 768px) {
+  .background3 {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .education {
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .projectImg {
+    width: 80%;
+  }
+}
