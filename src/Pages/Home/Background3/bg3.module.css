@@ -72,6 +72,10 @@
     width: 100%;
   }
 
+  .educationLevel {
+    width: 90%;
+  }
+
   .project {
     width: 100%;
     display: flex;
@@ -93,6 +97,10 @@
 
   .education {
     width: 100%;
+  }
+
+  .educationLevel {
+    width: 90%;
   }
 
   .project {
